@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+header{
+    background-color:black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+}
+
+header form label {
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 20px;
+}
+
+header form input {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+nav{
+    background-color: yellow;
+    padding: 20px;
+    /* position: sticky;
+    top: 109px;
+    z-index: 1; */
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li{
+display: inline-block;
+width: 25%;
+font-size: 24px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: red;
+}
+nav li a:hover{
+    color: blue;
+    font-weight:bold;
+}
+
+/* main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+  } */
+  main{
+    background-color: yellow;
+  }
+
+  main h2{
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  main h2:hover{
+    background-color: red;
+    color: yellow;
+  }
+
+  main p{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  main ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+  }
+  .images li{
+    display: inline-block;
+    list-style-type: none;
+    width: 40%;
+    margin: 20px 5%;
+    position: relative;
+  }
+  .images li:hover{
+   top: -4px;
+}
+  .images li img{
+    /* max-width: 100%; */
+    width: 100%;
+  }
+
+  .join{
+    text-align: center;
+    padding: 60px 20px;
+    color: blue;
+    background-color: yellow;
+  }
+  .join h2{
+    font-size: 40px;
+  }
+
+  .join form input{
+    font-size: 24px;
+    border-radius: 10px;
+    border: 3px solid red;
+    margin: 20px 0;
+    padding: 10px 20px;
+
+  }
+
+  footer{
+    background: #F63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #send{
+    border-radius: 20px;
+    border: 4px solid lightblue;
+ }
+#send:hover{
+    background-color: lightblue;
+    color: black;
+
+}
